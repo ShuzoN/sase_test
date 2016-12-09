@@ -1,3 +1,7 @@
-def test_sum(x,y)
-  return x+y
-end
+
+require './human.rb'
+
+nakamura = Human.new
+nakamura.was_named("shuzo")
+
+puts nakamura.name
